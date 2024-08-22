@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.lotofacil {
+  background-color: #7f3992;
+}
+
+.lotomania {
+  background-color: #f79c31;
+}
+
+.mega-sena {
+  background-color: #01ac66;
+}
+
+.quina {
+  background-color: #005fa1;
+}
+
+header {
+  margin-left: 100px;
+}
+
+ul.nav {
+  margin: 30px 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav > li {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h1 {
+  color: #0066b3;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 600px;
+}
+
+.items {
+  display: flex;
+  gap: 1rem;
+  max-width: 55rem;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 30px 100px 40px;
+}
+
+li {
+  background: #adc0c4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+li:hover {
+  background-color: #7f3992;
+}
+
+.color-selecionada {
+  background-color: #7f3992;
+}
+
+.actions {
+  max-width: 55rem;
+  margin-left: 100px;
+  padding-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#result {
+  width: 440px;
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2px;
+  border-bottom: 1px solid #45c0ae;
+}
+
+.buttons {
+  display: flex;
+  gap: .5rem;
+}
+
+button {
+  all: unset;
+  border: 1px solid #45c0ae;
+  color: #4c546d;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45c0ae;
+  color: #fff;
+}
+
