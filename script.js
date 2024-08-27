@@ -24,3 +24,11 @@ document.querySelectorAll("ul.items li").forEach((item) => {
     result.textContent = selecionados.join(" - ");
   });
 });
+
+clean.addEventListener("click", () => {
+  document.querySelectorAll("ul.items li").forEach((item) => {
+    item.classList.remove("color-selecionada");
+  });
+  selecionados.length = 0;
+  document.querySelector("#result").textContent = "";
+});
