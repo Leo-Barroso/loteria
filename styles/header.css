@@ -1,0 +1,42 @@
+header {
+  margin-left: 100px;
+}
+
+.lotofacil {
+  background-color: #7f3992;
+}
+
+.lotomania {
+  background-color: #f79c31;
+}
+
+.mega-sena {
+  background-color: #01ac66;
+}
+
+.quina {
+  background-color: #005fa1;
+}
+
+ul.nav {
+  margin: 30px 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav > li {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h1 {
+  color: #0066b3;
+  font-size: 55px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+p {
+  max-width: 600px;
+}
