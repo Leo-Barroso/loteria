@@ -32,3 +32,17 @@ clean.addEventListener("click", () => {
   selecionados.length = 0;
   document.querySelector("#result").textContent = "";
 });
+
+random.addEventListener("click", () => {
+  const items = Array.from(document.querySelectorAll("ul.items li"));
+  while (selecionados.length < maxNumbers) {
+    const randomItem = items[Math.floor(Math.random() * items.length)];
+    const itemText = randomItem.textContent;
+    if (!selecionados.includes(itemText)) {
+      selecionados.push(itemText);
+      randomItem.classList.add("color-selecionada");
+      selecionados.sort();
+    }
+  }
+  document.querySelector("#result").textContent = selecionados.join(" - ");
+});
